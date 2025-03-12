@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7E1D04E12D81063000572B2D /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D04E02D81063000572B2D /* Answer.swift */; };
+		7E1D04E92D810DD400572B2D /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D04E82D810DD400572B2D /* Trivia.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		7E1D04B52D80FD0D00572B2D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		7E1D04A42D80FD0C00572B2D /* Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1D04B42D80FD0D00572B2D /* TriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriviaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1D04BE2D80FD0D00572B2D /* TriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1D04E02D81063000572B2D /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		7E1D04E82D810DD400572B2D /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,7 @@
 		7E1D049B2D80FD0C00572B2D = {
 			isa = PBXGroup;
 			children = (
+				7E1D04DF2D81061F00572B2D /* Models */,
 				7E1D04A62D80FD0C00572B2D /* Trivia */,
 				7E1D04B72D80FD0D00572B2D /* TriviaTests */,
 				7E1D04C12D80FD0D00572B2D /* TriviaUITests */,
@@ -90,6 +98,15 @@
 				7E1D04BE2D80FD0D00572B2D /* TriviaUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7E1D04DF2D81061F00572B2D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7E1D04E02D81063000572B2D /* Answer.swift */,
+				7E1D04E82D810DD400572B2D /* Trivia.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +253,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1D04E92D810DD400572B2D /* Trivia.swift in Sources */,
+				7E1D04E12D81063000572B2D /* Answer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
